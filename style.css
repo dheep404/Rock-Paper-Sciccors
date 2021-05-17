@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(112, 107, 112);
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(100, 161, 64);
+    border: white solid 2px;
+
+}
+
+.buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3em 0;
+}
+
+.button-item {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    border: ridge 1px rgba(255, 255, 255, 0.678);
+    cursor: pointer;
+    
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
